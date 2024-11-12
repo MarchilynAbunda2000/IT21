@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Charts with OOP</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      .chart-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+      }
+      .chart-card {
+        width: 800px;
+        height: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Simple Charts with Chart.js and OOP</h1>
+    <div class="chart-container">
+      <!-- Bar Chart -->
+      <div class="chart-card">
+        <canvas id="barChart"></canvas>
+      </div>
+
+      <!-- Pie Chart -->
+      <div class="chart-card">
+        <canvas id="pieChart"></canvas>
+      </div>
+    </div>
+
+    <script src="chartCreator.js"></script>
+  </body>
+</html>
